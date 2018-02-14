@@ -1,0 +1,3 @@
+rootProject.name = 'GenerateRandomNumber'
+
+include ':app'
