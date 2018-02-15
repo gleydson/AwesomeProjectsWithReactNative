@@ -1,0 +1,32 @@
+//create project
+reacte-native init ProjectName
+
+//install and config eslint
+npm install --save-dev eslint-config-rallycoding
+#create file .eslintrc.json
+    {
+        "extends": "rallycoding"
+    }
+
+//build project 
+cd android/
+#create file local.properties
+    sdk.dir=/home/gleydson/Android/Sdk
+./gradlew assembleDebud
+cd app/build/outputs/apk
+adb install app-debug.apk
+
+//execute project
+react-native start
+adb reverse tcp:8081 tcp:8081
+#open project on device
+
+//comands adb
+adb shell input keyevent 82 //open menu developer
+adb shell input keyevent 46 46 //reload
+
+
+//cliente http axios
+npm install --save-dev babel-preset-es2015
+npm install --save-dev babel-preset-react
+npm install --save-dev axios
