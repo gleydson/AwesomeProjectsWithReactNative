@@ -30,3 +30,7 @@ adb shell input keyevent 46 46 //reload
 npm install --save-dev babel-preset-es2015
 npm install --save-dev babel-preset-react
 npm install --save-dev axios
+
+
+//router flux
+npm install --save react-native-router-flux
