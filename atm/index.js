@@ -18,30 +18,59 @@ class App extends Component {
             initial
             component={SceneMain}
             navigationBarStyle={styles.colorMain}
+            titleStyle={{
+              color: 'white',
+              fontWeight: 'bold',
+              alignSelf: 'center'
+            }}
             title="ATM Consultoria"
           />
           <Scene 
             key="client"
             component={SceneClient}
             navigationBarStyle={styles.colorClient}
+            titleStyle={{
+              color: 'white',
+              fontWeight: 'bold',
+              alignSelf: 'center',
+              marginLeft: -30 
+            }}
             title="ATM Consultoria"
           />
           <Scene
             key="contact"
             component={SceneContact}
             navigationBarStyle={styles.colorContact}
+            titleStyle={{
+              color: 'white',
+              fontWeight: 'bold',
+              alignSelf: 'center',
+              marginLeft: -30 
+            }}
             title="ATM Consultoria"
           />
           <Scene
             key="enterprise"
             component={SceneEnterprise}
             navigationBarStyle={styles.colorEnterprise}
+            titleStyle={{
+              color: 'white',
+              fontWeight: 'bold',
+              alignSelf: 'center',
+              marginLeft: -30 
+            }}
             title="ATM Consultoria"
           />
           <Scene
             key="service"
               component={SceneService}
               navigationBarStyle={styles.colorService}
+              titleStyle={{
+                color: 'white',
+                alignSelf: 'center',
+                fontWeight: 'bold',
+                marginLeft: -30 
+              }}
               title="ATM Consultoria"
           />
         </Stack>
