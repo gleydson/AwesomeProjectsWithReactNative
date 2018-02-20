@@ -1,0 +1,31 @@
+{
+  "name": "WhatsappClone",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "lodash": "^4.17.5",
+    "react": "16.2.0",
+    "react-native": "0.53.0",
+    "react-native-tab-view": "0.0.74",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.2.2",
+    "babel-preset-react-native": "4.0.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "firebase": "^4.10.0",
+    "jest": "22.3.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-redux": "^5.0.7",
+    "react-test-renderer": "16.2.0",
+    "redux": "^3.7.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
