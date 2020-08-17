@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "base-64": "^0.1.0",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.20",
     "react": "16.2.0",
     "react-native": "0.53.0",
     "react-native-tab-view": "0.0.74",
