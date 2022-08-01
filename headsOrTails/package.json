@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "react": "16.2.0",
-    "react-native": "0.53.0",
+    "react-native": "0.60.0",
     "react-native-router-flux": "^4.0.3",
     "snyk": "^1.116.2"
   },
